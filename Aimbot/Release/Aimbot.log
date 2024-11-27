@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+C:\Users\Ahmad\Desktop\TensorFlow\Aimbot\Aimbot\vector.h(5): message : see previous definition of 'M_PI'
+  Generating code
+  0 of 77 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Aimbot.vcxproj -> C:\Users\Ahmad\Desktop\TensorFlow\Aimbot\Release\Aimbot.exe
