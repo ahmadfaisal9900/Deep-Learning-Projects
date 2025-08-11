@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Production-Grade NLP Pipeline",
+    "description": "End-to-end text classification with data versioning, experiment tracking, and CI/CD deployment.",
+    "tags": ["NLP", "MLOps", "PyTorch", "Airflow"],
+    "links": [
+      { "label": "Code", "url": "https://github.com/yourhandle/your-nlp-pipeline" },
+      { "label": "Demo", "url": "https://your-demo.example.com" }
+    ]
+  },
+  {
+    "title": "Computer Vision for Quality Inspection",
+    "description": "Defect detection using transfer learning and active learning to reduce labeling costs.",
+    "tags": ["Computer Vision", "Active Learning", "TensorFlow"],
+    "links": [
+      { "label": "Code", "url": "https://github.com/yourhandle/quality-inspection" }
+    ]
+  },
+  {
+    "title": "Forecasting Platform",
+    "description": "Time-series forecasting service with hierarchical reconciliation and probabilistic outputs.",
+    "tags": ["Time Series", "Forecasting", "MLOps", "Python"],
+    "links": [
+      { "label": "Code", "url": "https://github.com/yourhandle/forecasting-platform" },
+      { "label": "Report", "url": "https://your-site.example.com/forecasting-report" }
+    ]
+  }
+]
