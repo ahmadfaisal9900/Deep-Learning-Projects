@@ -118,3 +118,54 @@ body {
 .pub-links { display: flex; gap: 10px; flex-wrap: wrap; }
 
 .site-footer { margin-top: auto; padding: 18px; text-align: center; color: var(--muted); border-top: 1px solid rgba(255,255,255,0.06); }
+
+/* --- Fancy enhancements --- */
+:root { --gradientA: #7aa2f7; --gradientB: #7dcfff; --gradientC: #c084fc; }
+
+body::before, body::after {
+  content: ""; position: fixed; inset: -20vmax; z-index: -1; filter: blur(60px); opacity: 0.35;
+  background: radial-gradient(60vmax 60vmax at 10% 10%, rgba(122,162,247,0.35), transparent 60%),
+              radial-gradient(50vmax 50vmax at 90% 20%, rgba(125,207,255,0.25), transparent 60%),
+              radial-gradient(60vmax 60vmax at 20% 90%, rgba(192,132,252,0.2), transparent 60%);
+  animation: gradientShift 18s ease-in-out infinite alternate;
+}
+
+@keyframes gradientShift {
+  0% { transform: translate3d(0,0,0) scale(1); }
+  100% { transform: translate3d(2%, -2%, 0) scale(1.05); }
+}
+
+.gradient-text {
+  background: linear-gradient(92deg, var(--gradientA), var(--gradientB), var(--gradientC));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+.avatar {
+  width: 120px; height: 120px; border-radius: 50%; margin: 0 auto 14px; object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.18);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35), 0 0 0 6px rgba(122,162,247,0.15);
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.button { transition: transform .15s ease, box-shadow .2s ease; }
+.button:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+.button.primary {
+  background: linear-gradient(90deg, var(--gradientA), var(--gradientB));
+  border: none; box-shadow: 0 8px 24px rgba(122,162,247,0.35);
+}
+
+.card { transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,0.35); border-color: rgba(255,255,255,0.14); }
+
+.hero .meta { display: inline-flex; gap: 8px; margin: 6px 0 6px; flex-wrap: wrap; justify-content: center; }
+
+/* subtle divider under section titles */
+.section > h2::after, .section > h1::after {
+  content: ""; display: block; width: 56px; height: 3px; margin-top: 8px; border-radius: 3px;
+  background: linear-gradient(90deg, var(--gradientA), var(--gradientB));
+}

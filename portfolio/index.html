@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portfolio | Home</title>
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
@@ -24,12 +27,18 @@
 
   <main class="container">
     <section class="hero">
-      <h1 class="hero-title">Your Name</h1>
+      <img class="avatar" src="assets/img/avatar.svg" alt="Your avatar" />
+      <h1 class="hero-title"><span class="gradient-text">Your Name</span></h1>
       <p class="hero-subtitle">Machine Learning Researcher • Data Scientist</p>
+      <div class="meta">
+        <span class="chip">NLP</span>
+        <span class="chip">Computer Vision</span>
+        <span class="chip">MLOps</span>
+      </div>
       <p class="hero-text">I build robust ML systems and publish research across deep learning, NLP, and computer vision. Explore my work and publications below.</p>
       <div class="hero-cta">
-        <a class="button primary" href="/workspace/portfolio/projects.html">View Projects</a>
-        <a class="button" href="/workspace/portfolio/publications.html">Read Publications</a>
+        <a class="button primary" href="projects.html">View Projects</a>
+        <a class="button" href="publications.html">Read Publications</a>
       </div>
     </section>
 
@@ -57,13 +66,24 @@
         <article class="card">
           <h3>Recent Project</h3>
           <p>See my latest ML engineering work.</p>
-          <a class="chip" href="/workspace/portfolio/projects.html">Projects</a>
+          <a class="chip" href="projects.html">Projects</a>
         </article>
         <article class="card">
           <h3>Recent Publication</h3>
           <p>Check out my latest paper and preprints.</p>
-          <a class="chip" href="/workspace/portfolio/publications.html">Publications</a>
+          <a class="chip" href="publications.html">Publications</a>
         </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card" style="text-align:center;">
+        <h2>Let’s build something together</h2>
+        <p class="hero-text">I’m open to collaborations, speaking, and consulting.</p>
+        <div class="hero-cta">
+          <a class="button primary" href="mailto:you@example.com">Contact me</a>
+          <a class="button" href="#">Download CV</a>
+        </div>
       </div>
     </section>
   </main>
