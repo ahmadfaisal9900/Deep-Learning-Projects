@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Efficient Transformers for Long-Document Understanding",
+    "authors": ["Your Name", "Coauthor One", "Coauthor Two"],
+    "venue": "ACL",
+    "year": 2024,
+    "links": [
+      { "label": "PDF", "url": "https://arxiv.org/abs/0000.00000" },
+      { "label": "Code", "url": "https://github.com/yourhandle/efficient-transformers" }
+    ]
+  },
+  {
+    "title": "Self-Supervised Vision Models for Industrial Defect Detection",
+    "authors": ["Your Name", "Coauthor A"],
+    "venue": "CVPR Workshops",
+    "year": 2023,
+    "links": [
+      { "label": "PDF", "url": "https://arxiv.org/abs/0000.00001" },
+      { "label": "Project", "url": "https://your-site.example.com/selfsup-defects" }
+    ]
+  },
+  {
+    "title": "Practical MLOps: From Notebooks to Production",
+    "authors": ["Your Name"],
+    "venue": "Tech Blog",
+    "year": 2022,
+    "links": [
+      { "label": "Article", "url": "https://blog.example.com/practical-mlops" }
+    ]
+  }
+]

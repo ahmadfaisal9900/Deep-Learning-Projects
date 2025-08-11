@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | Home</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="logo">
+      <img src="assets/img/logo.svg" alt="Logo" />
+      <span>ML/Data Science Portfolio</span>
+    </a>
+    <nav class="site-nav">
+      <a class="nav-link active" href="index.html">Home</a>
+      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="projects.html">Projects</a>
+      <a class="nav-link" href="publications.html">Publications</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☾</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 class="hero-title">Your Name</h1>
+      <p class="hero-subtitle">Machine Learning Researcher • Data Scientist</p>
+      <p class="hero-text">I build robust ML systems and publish research across deep learning, NLP, and computer vision. Explore my work and publications below.</p>
+      <div class="hero-cta">
+        <a class="button primary" href="/workspace/portfolio/projects.html">View Projects</a>
+        <a class="button" href="/workspace/portfolio/publications.html">Read Publications</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Highlights</h2>
+      <div class="cards three" id="highlights">
+        <article class="card">
+          <h3>End-to-end ML Pipelines</h3>
+          <p>Production-grade data pipelines and model deployment with MLOps best practices.</p>
+        </article>
+        <article class="card">
+          <h3>Applied Research</h3>
+          <p>Publications in NLP and vision; reproducible experiments and open-source code.</p>
+        </article>
+        <article class="card">
+          <h3>Impact</h3>
+          <p>Delivering measurable business outcomes with interpretable models and dashboards.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Recent</h2>
+      <div class="cards two" id="recent">
+        <article class="card">
+          <h3>Recent Project</h3>
+          <p>See my latest ML engineering work.</p>
+          <a class="chip" href="/workspace/portfolio/projects.html">Projects</a>
+        </article>
+        <article class="card">
+          <h3>Recent Publication</h3>
+          <p>Check out my latest paper and preprints.</p>
+          <a class="chip" href="/workspace/portfolio/publications.html">Publications</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name · <a href="mailto:you@example.com">you@example.com</a></p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "Your Name",
+  "role": "Machine Learning Researcher / Data Scientist",
+  "affiliation": "Your Organization",
+  "location": "City, Country",
+  "email": "you@example.com",
+  "summary": "I design, build, and deploy machine learning systems with a focus on reliable research-to-production workflows across NLP, computer vision, and tabular ML.",
+  "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "NLP",
+    "Computer Vision",
+    "Time Series",
+    "Reinforcement Learning",
+    "Data Engineering",
+    "MLOps",
+    "Experiment Tracking",
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "XGBoost",
+    "SQL",
+    "Airflow",
+    "Docker",
+    "Kubernetes",
+    "AWS/GCP/Azure"
+  ],
+  "links": [
+    { "label": "Google Scholar", "url": "https://scholar.google.com/" },
+    { "label": "GitHub", "url": "https://github.com/" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/" },
+    { "label": "Twitter", "url": "https://twitter.com/" }
+  ]
+}
